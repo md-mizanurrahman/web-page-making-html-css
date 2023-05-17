@@ -1,0 +1,225 @@
+:root {
+    --border: 1px solid red;
+    --brand-color: #c8727b;
+
+}
+
+.body {
+    background-color: #fff;
+
+}
+
+
+.container {
+    border: 1px solid red;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.bg {
+    background-color: rgb(220, 226, 217);
+}
+
+.header_content {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.header_content .logo {
+    display: grid;
+    align-content: center;
+}
+
+.header_content .logo img {
+    height: 40px;
+}
+
+.header_content .nav {
+    border: 1px solid rgb(24, 201, 17);
+    display: grid;
+    align-content: center;
+}
+
+.header_content .nav ul {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header_content .nav ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(51, 47, 47);
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 24px;
+    gap: 20px;
+    transition-duration: .3s;
+    border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+
+}
+
+.header_content .nav ul li a:hover {
+    color: #ff4155;
+    border-bottom: 3px solid #ff4155;
+
+}
+
+.header_content .RESUME_buttonL {}
+
+.header_content .RESUME_button a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    border: 1px solid rgb(72, 28, 217);
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    transition-duration: .3s;
+}
+
+.header_content .RESUME_button a:hover {
+    background-color: #ff4155;
+    color: white;
+
+}
+
+.header_content .RESUME_button a i {
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.banner-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.banner-content .banner-center {
+    border: 1px solid red;
+}
+
+.banner-content .banner-text {
+    border: 1px solid red;
+    display: grid;
+    align-content: center;
+}
+
+.banner-content .banner-text h2 {
+    font-size: 22px;
+    margin: 0;
+    text-transform: capitalize;
+    color: rgb(0, 8, 255);
+    font-family: 'Poppins', sans-serif
+}
+
+.banner-content .banner-text h1 {
+    font-size: 32px;
+    margin: 0;
+    text-transform: capitalize;
+    color: #0d0d0d;
+    font-family: 'Poppins', sans-serif
+}
+
+.banner-content .banner-text h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0;
+    color: rgb(18, 18, 155);
+    font-family: 'Poppins', sans-serif
+}
+
+.banner-content .banner-text p {
+    font-family: 'Poppins', sans-serif
+}
+
+.banner-content .banner-image {
+    /* border: 1px solid red; */
+
+}
+
+.banner-content .banner-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.banner-content .hire-me a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: rgb(65, 16, 225);
+    font-weight: bold;
+    transition-duration: .3s;
+}
+
+.banner-content .hire-me a:hover {
+    background-color: #ff4155;
+    color: white;
+}
+
+/* advantage-part-css-stART */
+#advantage {}
+.advantage-content{
+  display: grid;
+}
+
+.advantage-content .left {
+
+}
+
+.advantage-content .left .experience {}
+
+.advantage-content .left .experience h2 {}
+
+.advantage-content .left .experience h2 span {}
+
+.advantage-content .left .satisfaction-rates {}
+
+.advantage-content .left .satisfaction-rates .amount {}
+
+.advantage-content .left .satisfaction-rates .content {}
+
+.advantage-content .left .satisfaction-rates .content .top {}
+
+.advantage-content .left .satisfaction-rates .content .bottom {}
+
+
+.advantage-content .right {
+   
+}
+
+.advantage-content .right h2 {
+    border-radius: 19px;
+}
+
+.advantage-content .right p {
+   
+}
+
+.advantage-content .advantage-list {}
+
+.advantage-content .advantage-list .al-item {}
+
+.advantage-content .advantage-list .al-item h3 {}
+
+.advantage-content .advantage-list .al-item h3 {}
